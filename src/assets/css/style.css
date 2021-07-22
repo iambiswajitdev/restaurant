@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.resturent {
+  margin-top: 80px;
+}
+.card {
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 25px #ccc;
+  margin-bottom: 20px;
+}
+.catagory {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.cardTitle h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: brown;
+}
+.listId {
+  border: 2px solid #e1b3b3;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardNumber {
+  margin-top: 15px;
+}
+.manuImg {
+  height: 250px;
+  border-radius: 10px;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.navBtn {
+  border: none;
+  padding: 7px 20px;
+  background-color: rgb(64, 62, 219);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+.cardRead {
+  color: red;
+}
+.header {
+  background-color: #fff;
+  box-shadow: 0px 0px 25px #ccc;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+}
+.active {
+  border: none;
+  padding: 7px 20px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-right: 10px;
+  background-color: brown;
+}
+.cate {
+  font-size: 12px;
+  color: blue;
+}
+.orderNow {
+  background-color: #ff9900;
+  color: #fff;
+  border: navajowhite;
+  text-transform: capitalize;
+  padding: 5px 0;
+  margin-top: 16px;
+  border-radius: 7px;
+}
+.price {
+  font-size: 19px;
+  color: chocolate;
+}
+.logo {
+  background-image: url(../logo.png);
+  width: 200px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer h2 {
+  font-size: 20px;
+}
