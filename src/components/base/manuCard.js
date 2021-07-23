@@ -5,7 +5,7 @@ const ManuCard = ({ data }) => {
   return (
     <>
       <div className="resturent">
-        <Container>
+        <Container fluid>
           <Row>
             {data.map((item, index) => (
               <Col lg={4} key={index}>

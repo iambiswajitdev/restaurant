@@ -4,13 +4,14 @@
 }
 
 .resturent {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .card {
   padding: 15px;
   background-color: #fff;
   box-shadow: 0px 0px 25px #ccc;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 .catagory {
   font-size: 20px;
@@ -49,12 +50,13 @@
 .navBtn {
   border: none;
   padding: 7px 20px;
-  background-color: rgb(64, 62, 219);
-  color: #fff;
+  color: #f48d22;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 16px;
   text-transform: capitalize;
   margin-right: 10px;
+  background: none;
+  font-weight: 500;
 }
 .cardRead {
   color: red;
@@ -109,4 +111,9 @@
 }
 .footer h2 {
   font-size: 20px;
+}
+@media only screen and (max-width: 479px) {
+  .resturent {
+    margin-top: 55%;
+  }
 }

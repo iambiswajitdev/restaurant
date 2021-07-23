@@ -31,7 +31,7 @@ const Reasturent = () => {
       <div className="header">
         <Container fluid>
           <Row>
-            <Col lg={3}>
+            <Col lg={3} xs={12}>
               <div className="logo"></div>
             </Col>
             <Col lg={9}>
